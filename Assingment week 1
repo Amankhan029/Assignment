@@ -1,0 +1,962 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "d4ca2289-300f-4e4c-90cf-1b19c0f35dec",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid decimal literal (3460982317.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[1], line 2\u001b[0;36m\u001b[0m\n\u001b[0;31m    1.string\u001b[0m\n\u001b[0m     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid decimal literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "Create one variable containing following type of data:\n",
+    " 1.string\n",
+    " 2.list\n",
+    " 3.float\n",
+    " 4.float"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "e7b053a4-a4bd-4ba2-b0f7-47fa93efc2dc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "mixeddata=(\"Hello,world!\",[1,2,3,4,5],3.556,(10,20,30,40))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "254920b5-8009-4ae0-a0c4-8078f3f454f7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "tuple"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(mixeddata)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "293511a5-b619-4e10-962d-9ef85a9991f4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'str'>\n",
+      "<class 'list'>\n",
+      "<class 'float'>\n",
+      "<class 'tuple'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "for element in mixed_data:\n",
+    "    print(type(element))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "482b8725-11b5-4e18-97be-fd111992ac81",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid decimal literal (1971077338.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[42], line 2\u001b[0;36m\u001b[0m\n\u001b[0;31m    1.var1=''\u001b[0m\n\u001b[0m     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid decimal literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "Q2.Given are some following variables containing data:\n",
+    "1.var1=''\n",
+    "2.var2='[DS,ML,Python]'\n",
+    "3.var3=['DS','ML','Python']\n",
+    "4.var4=1.\n",
+    "\n",
+    "What will be the data type of the above given variable \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "c2986c3d-8008-4895-826a-064f1f8d4ac7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "var1=''"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "fb5009d9-0ee0-4d00-aa0f-ef6a7d392be4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type('')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "6d051b06-9f50-4606-ac5b-ebdae7b525f5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "var2='[DS,ML,Python]'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "c2e1bf95-5440-4e41-90fb-5d0ec306eff8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(var2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "d3148725-b5c1-4f9f-8b91-00fb6cf10a4b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "var3=['DS','ML','Python']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "9477d2a8-ef44-4b6a-b558-f5044031e219",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(var3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "b45b4a5b-3e9f-45f1-9b64-ed35a8f4acf3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "var4=1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "eae84770-8f89-4faf-99d2-0b564af77150",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(var4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "035d6937-ff45-49fd-a23b-552eb2c71248",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (747976647.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[57], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    Q3.Explain the use of the following operators using an example;\u001b[0m\n\u001b[0m               ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "Q3.Explain the use of the following operators using an example;\n",
+    "\n",
+    "1./\n",
+    "2.%\n",
+    "3.//\n",
+    "4.**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "e34b177a-cd3a-4cba-83fb-a0c8f681b37f",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (1423067606.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[58], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    ((Division, operator):This, operator, is, used, for, division, ,performing, floating, point, division, when, used, between, two, numbers.)\u001b[0m\n\u001b[0m                         ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "/ (Division operator):This operator is used for division ,performing floating point division when used between two numbers."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "3d57d42b-b373-4d6a-96c8-af8fa21115cf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3.3333333333333335\n"
+     ]
+    }
+   ],
+   "source": [
+    "result=10/3\n",
+    "print(result)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "ce4f1e9c-c1f7-402f-a1bf-f567a4e8a370",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(result)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "2ec5dd9c-fc83-448f-992e-01c7780bcebf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "UsageError: Line magic function `%` not found.\n"
+     ]
+    }
+   ],
+   "source": [
+    "% (Module operator):It  returns the remainder of the division operation"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "1c7f7ed0-0ccf-4cab-ad8b-0b9f8336ab47",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "remainder=10%3\n",
+    "print(remainder)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "79022456-026b-43e5-a63e-801e59edb48a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 64,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(remainder)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "b5ecffc7-3a59-4e06-b05c-6323ab8d104b",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (545861339.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[65], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    //(floor Division operators):it perform division and returns the floor value as an integer.\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "//(floor Division operators):it perform division and returns the floor value as an integer."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "0f61385c-abc5-45b5-8320-ef721c2691cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "result=10//3\n",
+    "print(result)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "e386bcab-aa77-4e9e-8d51-c85467c5a7ba",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax. Perhaps you forgot a comma? (1315305540.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[68], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    '**'(Exponentiation Operator):it raises the left operand to the power of the right operand.\u001b[0m\n\u001b[0m         ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax. Perhaps you forgot a comma?\n"
+     ]
+    }
+   ],
+   "source": [
+    "'**'(Exponentiation Operator):it raises the left operand to the power of the right operand. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "abfe5248-047c-45e2-8321-3ad0e261456a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "result=2**3\n",
+    "print(result)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "aeb3f4b4-32fc-463d-b00c-1ae90c9e7b44",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (4179779675.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[70], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    Q4.Create a list of length 10 of your choice containing multiple types of data.Using for loop print the element and its data types\u001b[0m\n\u001b[0m              ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "Q4.Create a list of length 10 of your choice containing multiple types of data.Using for loop print the element and its data types"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "8abd6ff2-0c61-46bc-be83-fefae64958f1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "pw_skills=[10,\"Hello\",3.14,True,[1,2,3],{'key':'value'},(4,5),None,\"python\",99]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "id": "16ecca6b-bdd2-44f7-922f-01829a12b847",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "element:{element},Data Type:{type(element)}\n",
+      "element:{element},Data Type:{type(element)}\n",
+      "element:{element},Data Type:{type(element)}\n",
+      "element:{element},Data Type:{type(element)}\n",
+      "element:{element},Data Type:{type(element)}\n",
+      "element:{element},Data Type:{type(element)}\n",
+      "element:{element},Data Type:{type(element)}\n",
+      "element:{element},Data Type:{type(element)}\n",
+      "element:{element},Data Type:{type(element)}\n",
+      "element:{element},Data Type:{type(element)}\n"
+     ]
+    }
+   ],
+   "source": [
+    "for element in pwskills:\n",
+    "    print(\"element:{element},Data Type:{type(element)}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "id": "4da72a09-4a9e-4a71-be51-4f079e0fab0d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (1988397388.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[90], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    Q5.Using a while loop, verify if the number A is purely divisible by number B and if so then how many times it can be divible\u001b[0m\n\u001b[0m             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "Q5.Using a while loop, verify if the number A is purely divisible by number B and if so then how many times it can be divible"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "id": "e7adb2e0-56ce-4cd2-8187-fb95de89ad6a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "A=100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "f5799d20-367f-4b96-a5b5-97ee190d2d26",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "B=5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "89ff4c77-650e-423c-a0af-e73a25577068",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "count=0\n",
+    "while A%B==0:\n",
+    "    A=A//B\n",
+    "    count+=1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 100,
+   "id": "85cde060-c5ac-47aa-af91-a1892a427f83",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{A} is purely divisible by B and can be divided{count} times\n"
+     ]
+    }
+   ],
+   "source": [
+    "if count>0:\n",
+    "    print(\"{A} is purely divisible by B and can be divided{count} times\")\n",
+    "else:\n",
+    "    print(\"{A} is not purely divisible by {B}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "id": "ce2dd711-2578-41db-a5bb-4a654fc7f3e4",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (3443347450.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[101], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    Q6.Create a list containiing 25 int type data.Using for loop and if-else condition print if the element is divisible by 3 or not.\u001b[0m\n\u001b[0m              ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "Q6.Create a list containiing 25 int type data.Using for loop and if-else condition print if the element is divisible by 3 or not."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "id": "5321512e-6d02-40e4-af04-a69a7479beef",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "int_list=[i for i in range(1,26)]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 105,
+   "id": "190b41f9-eb0b-4005-9611-7621d97c16a2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1 is not divisible by 3\n",
+      "2 is not divisible by 3\n",
+      "3 is divisible by 3\n",
+      "4 is not divisible by 3\n",
+      "5 is not divisible by 3\n",
+      "6 is divisible by 3\n",
+      "7 is not divisible by 3\n",
+      "8 is not divisible by 3\n",
+      "9 is divisible by 3\n",
+      "10 is not divisible by 3\n",
+      "11 is not divisible by 3\n",
+      "12 is divisible by 3\n",
+      "13 is not divisible by 3\n",
+      "14 is not divisible by 3\n",
+      "15 is divisible by 3\n",
+      "16 is not divisible by 3\n",
+      "17 is not divisible by 3\n",
+      "18 is divisible by 3\n",
+      "19 is not divisible by 3\n",
+      "20 is not divisible by 3\n",
+      "21 is divisible by 3\n",
+      "22 is not divisible by 3\n",
+      "23 is not divisible by 3\n",
+      "24 is divisible by 3\n",
+      "25 is not divisible by 3\n"
+     ]
+    }
+   ],
+   "source": [
+    "for num in int_list:\n",
+    "    if num%3==0:\n",
+    "        print(f\"{num} is divisible by 3\")\n",
+    "    else:\n",
+    "        print(f\"{num} is not divisible by 3\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "id": "3905875c-1397-423d-8c80-c36fd4b6f32c",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (892157877.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[106], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    Q7.What do you understand about mutable and immutable data types?Give examples for both showing this property\u001b[0m\n\u001b[0m            ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "Q7.What do you understand about mutable and immutable data types?Give examples for both showing this property"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 107,
+   "id": "803b2986-f532-40fd-89ff-46bf1f15fbca",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2519004546.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[107], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    Mutable data types in python are those that  can be changed after they are created.This means you can modify the contents of a  mutable object without changing its identity\u001b[0m\n\u001b[0m            ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "Mutable data types in python are those that  can be changed after they are created.This means you can modify the contents of a  mutable object without changing its identity"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "id": "3950d494-a8eb-4242-af5b-967df1cde958",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (1579310285.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[108], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    immutable data types ,on the other hand,cannot be changed after they are created.Any operation that appears to modify an immutable object actually creates a new object\u001b[0m\n\u001b[0m              ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "immutable data types ,on the other hand,cannot be changed after they are created.Any operation that appears to modify an immutable object actually creates a new object"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 109,
+   "id": "16cfc526-8d05-409c-a5b1-dab8bc6d9568",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2323352937.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[109], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    list:You can change the elements within a list without changing the list itself\u001b[0m\n\u001b[0m             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "list:You can change the elements within a list without changing the list itself"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "id": "55b4f755-c7e3-4267-9fdb-3ac77f9d5429",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l=[2,3,4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "id": "abe24380-a8fb-449d-8b83-922c0e21bad5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l[1]=10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 113,
+   "id": "83a0febf-4af4-40d1-a451-28290a75de7f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2, 10, 4]"
+      ]
+     },
+     "execution_count": 113,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 114,
+   "id": "a2937f69-22ab-44be-b0d9-05da044e8cb0",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (553711905.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[114], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    Dictionaries you can add,remove or modify key values pairs with dict\u001b[0m\n\u001b[0m                 ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "Dictionaries you can add,remove or modify key values pairs with dict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 115,
+   "id": "a80417de-45b8-494a-b256-9223265b2624",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "D={'a':1,'b':2}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 117,
+   "id": "b333376c-f883-494c-bd1c-2387a47ba6d8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "D['c']=3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 118,
+   "id": "bb31f462-7387-4d7f-aed5-ee92542e6850",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'a': 1, 'b': 2, 'c': 3}"
+      ]
+     },
+     "execution_count": 118,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "D"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 119,
+   "id": "13e8155b-cc26-442e-80b5-e33045213016",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2264170645.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[119], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    Examples of immutable data types in python\u001b[0m\n\u001b[0m             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "Examples of immutable data types in python \n",
+    "Tuples and String"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 123,
+   "id": "3523f3a7-0fc5-4786-9060-570705a7e226",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t=(1,2,3,4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 128,
+   "id": "cb15fd1e-98db-4d19-98eb-a033a4804313",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'tuple' object does not support item assignment",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[128], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43mt\u001b[49m\u001b[43m[\u001b[49m\u001b[38;5;241;43m0\u001b[39;49m\u001b[43m]\u001b[49m\u001b[38;5;241m=\u001b[39m\u001b[38;5;241m10\u001b[39m\n",
+      "\u001b[0;31mTypeError\u001b[0m: 'tuple' object does not support item assignment"
+     ]
+    }
+   ],
+   "source": [
+    "t[0]=10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 125,
+   "id": "ec5c836e-db6f-485a-a712-2f31dfaee73d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s=\"Hello\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 127,
+   "id": "81325f33-c8bb-458c-b346-62f8f44f3996",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'h' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[127], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m s[\u001b[38;5;241m0\u001b[39m]\u001b[38;5;241m=\u001b[39m\u001b[43mh\u001b[49m\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'h' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "s[0]=h"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
+   "id": "b0edb168-da85-4f1a-b81a-fc4fb3331bec",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 129,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9799dcc0-09a9-4fc3-8004-011ab91fddd6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
